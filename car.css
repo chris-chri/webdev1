@@ -1,0 +1,43 @@
+.header{
+    background-color:blue;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+.body{
+    margin: 0;
+}
+
+.topnav{
+    overflow:hidden;
+    background-color: beige;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color:blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-emphasis: none;
+
+}
+.topnav a:hover {
+    color:aqua
+
+}
+.leftcolum{
+    float: left;
+    width: 75%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.iphone_15{
+    background-color: beige;
+    padding: 20px;
+    
+}
